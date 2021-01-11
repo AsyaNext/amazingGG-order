@@ -1,0 +1,90 @@
+@import "fonts";
+@import "base";
+
+.header {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .header-btn {
+    display: flex;
+    align-items: center;
+    .header-btn__caption {
+      margin-right: 22px;
+      font-size: 14px;
+      color: #F2F2F2;
+    }
+    .header-btn__icon {
+      width: 27px;
+      height: 21px;
+      background-image: url("images/icons/icon-menu.svg");
+      background-size: cover;
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .footer-navigation {
+    max-width: 759px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .footer-navigation__group {
+      .footer-navigation__group-title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #F2F2F2;
+      }
+      .footer-navigation__group-item {
+        margin-top: 6px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #A9ABB3;
+      }
+      .footer-navigation__group-links {
+        margin-top: 22px;
+        width: 114px;
+        display: flex;
+        justify-content: space-between;
+        .footer-navigation__group-links-item {
+          background-size: cover;
+          height: 15px;
+        }
+        .discord {
+          width: 19px;
+          background-image: url("images/icons/icon-discord.svg");
+        }
+        .insta {
+          width: 15px;
+          background-image: url("images/icons/icon-insta.svg");
+        }
+        .vk {
+          width: 24px;
+          background-image: url("images/icons/icon-vk.svg");
+        }
+      }
+    }
+  }
+  .footer-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .footer-design__caption {
+      margin-top: 5px;
+      max-width: 147px;
+      width: 100%;
+      font-weight: 500;
+      font-size: 9px;
+      line-height: 11px;
+      text-align: center;
+    }
+  }
+}

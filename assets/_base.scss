@@ -1,0 +1,42 @@
+* {
+  color: white;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  min-height: 900px;
+  height: 100vh;
+  background-color: #000000;
+  background-image: url("images/back.png");
+  background-size: cover;
+}
+.fixed-size {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  max-width: 1170px;
+  padding: 0 40px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@mixin transform($property) {
+  -o-transform: $property;
+  -ms-transform: $property;
+  -moz-transform: $property;
+  -webkit-transform: $property;
+  transform: $property;
+}
+@mixin transition($property) {
+  -o-transition: $property;
+  -ms-transform: $property;
+  -moz-transition: $property;
+  -webkit-transition: $property;
+  transition: $property;
+}
