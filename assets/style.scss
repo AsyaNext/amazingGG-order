@@ -20,6 +20,15 @@
       height: 21px;
       background-image: url("images/icons/icon-menu.svg");
       background-size: cover;
+      cursor: pointer;
+      @include transition(all 0.3s ease);
+      &:hover {
+        @include transform(scale(1.2));
+      }
+      &:active {
+        position: relative;
+        top: 1px;
+      }
     }
   }
 }
@@ -212,6 +221,14 @@
         font-size: 14px;
         line-height: 19px;
         color: #A9ABB3;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+        &:active {
+          position: relative;
+          top: 1px;
+        }
       }
       .footer-navigation__group-links {
         margin-top: 22px;
@@ -221,6 +238,14 @@
         .footer-navigation__group-links-item {
           background-size: cover;
           height: 15px;
+          cursor: pointer;
+          &:hover {
+            opacity: 0.8;
+          }
+          &:active {
+            position: relative;
+            top: 1px;
+          }
         }
         .discord {
           width: 19px;

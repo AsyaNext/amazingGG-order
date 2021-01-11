@@ -65,6 +65,23 @@ body {
   height: 21px;
   background-image: url("images/icons/icon-menu.svg");
   background-size: cover;
+  cursor: pointer;
+  -o-transition: all 0.3s ease;
+  -ms-transform: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.header .header-btn .header-btn__icon:hover {
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.header .header-btn .header-btn__icon:active {
+  position: relative;
+  top: 1px;
 }
 
 .content {
@@ -264,6 +281,14 @@ body {
   font-size: 14px;
   line-height: 19px;
   color: #A9ABB3;
+  cursor: pointer;
+}
+.footer .footer-navigation .footer-navigation__group .footer-navigation__group-item:hover {
+  opacity: 0.8;
+}
+.footer .footer-navigation .footer-navigation__group .footer-navigation__group-item:active {
+  position: relative;
+  top: 1px;
 }
 .footer .footer-navigation .footer-navigation__group .footer-navigation__group-links {
   margin-top: 22px;
@@ -274,6 +299,14 @@ body {
 .footer .footer-navigation .footer-navigation__group .footer-navigation__group-links .footer-navigation__group-links-item {
   background-size: cover;
   height: 15px;
+  cursor: pointer;
+}
+.footer .footer-navigation .footer-navigation__group .footer-navigation__group-links .footer-navigation__group-links-item:hover {
+  opacity: 0.8;
+}
+.footer .footer-navigation .footer-navigation__group .footer-navigation__group-links .footer-navigation__group-links-item:active {
+  position: relative;
+  top: 1px;
 }
 .footer .footer-navigation .footer-navigation__group .footer-navigation__group-links .discord {
   width: 19px;
