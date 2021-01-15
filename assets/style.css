@@ -178,6 +178,7 @@ body {
 }
 .content .content-inputs .content-inputs__item {
   padding-left: 30px;
+  padding-right: 30px;
   width: 100%;
   height: 42px;
   border-radius: 4px;
