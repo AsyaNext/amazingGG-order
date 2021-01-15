@@ -259,14 +259,18 @@ body {
 .content .content-link {
   margin-top: 21px;
   line-height: 19px;
+  border-bottom: 1px #A9ABB2 dotted;
+  color: #A9ABB2;
   cursor: pointer;
   user-select: none;
 }
 .content .content-link:hover {
-  opacity: 0.8;
+  color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
 }
 .content .content-link:active {
-  top: 15px;
+  position: relative;
+  top: 1px;
 }
 
 .footer {
